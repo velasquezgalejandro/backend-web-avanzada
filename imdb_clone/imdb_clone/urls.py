@@ -22,4 +22,8 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("genres.urls")),
     path("api/", include("actors.urls")),
+    path("api/", include("directors.urls")),
+    path("api/", include("movies.urls")),
+    path("api/", include("rating.urls")),
+    path("api/", include("comments.urls")),
 ]

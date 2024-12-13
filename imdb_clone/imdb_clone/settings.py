@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     "rest_framework",
     "genres",
     "actors",
+    "directors",
+    "movies",
+    "rating",
+    "comments",
 ]
 
 MIDDLEWARE = [
